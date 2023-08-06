@@ -16,7 +16,7 @@ def main():
         for i in range(int(sys.argv[2])-1):
             trans = haar.haartransform(trans[0,0])
         
-    haar.saveim(trans[0,0], maxlum, sys.argv[1]+"_compressed.png")
+    haar.saveim(trans[0,0], maxlum, sys.argv[1]+"_compressed.jpg")
         
         
 main()
